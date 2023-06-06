@@ -1,0 +1,54 @@
+#  Object-oriented Programming Challenge: SVG Logo Maker
+
+## Description
+
+The objective of the project was to create a command-line application that takes in user input to generates a logo and saves it as an SVG file.
+
+The application includes Triangle, Circle, and Square classes, as well as tests for each of these classes using Jest. 
+
+Each shape class is tested for a render() method that returns a string for the corresponding SVG file with the given shape color.
+
+
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Preview](#preview)
+* [Tests](#tests)
+* [Credits](#credits)
+* [Questions](#links)
+* [License](#license)
+
+
+## Installation 
+<hr>
+
+- Node 
+- Inquirer package 8.2.4
+- npm init
+- npm jest
+
+## Usage
+<hr>
+Once the installation is completed, run node index.js in the commend line and user will be prompted to answer a series of questions.
+
+
+WHEN user is prompted to enter a text,he/she can enter up to three (3) characters only.
+
+WHEN user is prompted to enter text color, he/she could enter a color key word or a hehexadecimal number
+
+WHEN user is prompted to select a shape, he/she is presented with a list of shapes to select from: circle, triangle, and square
+
+WHEN user is prompted to enter the shape's color, he/she could enter a color key word or a hehexadecimal number
+
+WHEN all questions are answered a SVG file is created named 'logo.svg' and the commend line displays the text "Generated logo.svg"
+
+WHEN user opens the `logo.svg` file in a browser, a 300x200 pixel image is shown that matches the criteria that was enterd. 
+
+## Preview
+
+ 
+
+
+
